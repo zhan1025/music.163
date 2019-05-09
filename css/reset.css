@@ -1,0 +1,46 @@
+body, textarea, select, input, button {
+     font-size: 12px;
+     color: #333;
+     font-family: quote, "PingFang SC", "Microsoft Yahei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", "simsun", sans-serif;
+     -webkit-text-size-adjust: none;
+     word-wrap: break-word;
+     word-break: break-word;
+     white-space: normal;
+}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,footer,nav,article,aside{
+	margin:0;padding:0
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;	
+}
+i,em{
+	font-style:normal;	
+}
+li{
+	list-style:none;	
+}
+a{
+	text-decoration:none;
+	color:#6b6b6b;	
+}
+/* a:hover{
+	color:#f40;	
+} */
+input{
+	outline:none;	
+}
+.clearfix{
+	*zoom:1;
+	/* 兼容IE低版本高度塌陷问题 */	
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	line-height:0;
+	clear:both;
+	overflow:hidden;	
+}
+img{
+	border:0;	
+}

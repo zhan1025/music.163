@@ -1,0 +1,103 @@
+
+
+{
+     "banners": [
+          {
+               "id": 9361000,
+               "productId": 0,
+               "picId": 109951164056644610,
+               "backendPicId": 109951164056641236,
+               "addTime": 100,
+               "position": 1,
+               "type": 0,
+               "url": "https://music.163.com/m/at/5cd143fbacdfa045cc70da48",
+               "bannerExtJson": null,
+               "isSetTime": 1,
+               "beginTime": 1557244800000,
+               "endTime": null,
+               "picStr": "http://p4.music.126.net/ZCtGQi6c7cLyuAA6tXXQew==/109951164056644610.jpg",
+               "backendPicStr": "http://p3.music.126.net/JBMG_5a_tICVoV2De5U0SQ==/109951164056641236.jpg"
+          },
+          {
+               "id": 9361001,
+               "productId": 0,
+               "picId": 109951164053330493,
+               "backendPicId": 109951164053338255,
+               "addTime": 100,
+               "position": 2,
+               "type": 0,
+               "url": "https://music.163.com/m/at/5cc6e2cba780c529c59e2ce7",
+               "bannerExtJson": null,
+               "isSetTime": 1,
+               "beginTime": 1557158400000,
+               "endTime": null,
+               "picStr": "http://p3.music.126.net/9uRzdN0yPqZ4uVGpspt36g==/109951164053330493.jpg",
+               "backendPicStr": "http://p3.music.126.net/C_9yruDlbefx4zWZ4ytUuA==/109951164053338255.jpg"
+          },
+          {
+               "id": 9361002,
+               "productId": 0,
+               "picId": 109951164051653838,
+               "backendPicId": 109951164051658186,
+               "addTime": 100,
+               "position": 3,
+               "type": 0,
+               "url": "https://music.163.com/m/at/5cceaa26acdfa045cc70cc9c",
+               "bannerExtJson": null,
+               "isSetTime": 1,
+               "beginTime": 1557072000000,
+               "endTime": null,
+               "picStr": "http://p4.music.126.net/kmW1Q0fEert9LnX73H6_OQ==/109951164051653838.jpg",
+               "backendPicStr": "http://p3.music.126.net/UCnaM417p15oXUccQ8lF9w==/109951164051658186.jpg"
+          },
+          {
+               "id": 9361003,
+               "productId": 0,
+               "picId": 109951164036853783,
+               "backendPicId": 109951164036855692,
+               "addTime": 100,
+               "position": 4,
+               "type": 0,
+               "url": "https://music.163.com/m/at/5cc198024d9091795561b01d",
+               "bannerExtJson": null,
+               "isSetTime": 1,
+               "beginTime": 1556985600000,
+               "endTime": null,
+               "picStr": "http://p4.music.126.net/-B5IGiZIzV4TLlaKolp8qg==/109951164036853783.jpg",
+               "backendPicStr": "http://p3.music.126.net/akJXcvlRqzetO9GDHSKzGQ==/109951164036855692.jpg"
+          },
+          {
+               "id": 9361004,
+               "productId": 0,
+               "picId": 109951164052053451,
+               "backendPicId": 109951164036896193,
+               "addTime": 100,
+               "position": 5,
+               "type": 0,
+               "url": "https://music.163.com/m/at/5cc81db6acdfa045cc70c363",
+               "bannerExtJson": null,
+               "isSetTime": 1,
+               "beginTime": 1556899200000,
+               "endTime": null,
+               "picStr": "http://p4.music.126.net/bXAFqK23wrtAC_46xQyQRQ==/109951164052053451.jpg",
+               "backendPicStr": "http://p3.music.126.net/Qm6WQSY00_vLd2DZjd1BLA==/109951164036896193.jpg"
+          },
+          {
+               "id": 9361005,
+               "productId": 0,
+               "picId": 109951164036846473,
+               "backendPicId": 109951164036853235,
+               "addTime": 100,
+               "position": 6,
+               "type": 0,
+               "url": "https://music.163.com/m/at/5cc6a7a8a780c529c59e2a9e",
+               "bannerExtJson": null,
+               "isSetTime": 1,
+               "beginTime": 1556812800000,
+               "endTime": null,
+               "picStr": "http://p3.music.126.net/CVXWeEIImT1LYfyUhzNCOQ==/109951164036846473.jpg",
+               "backendPicStr": "http://p4.music.126.net/qw5aWD204WBY7IMz_ovHog==/109951164036853235.jpg"
+          }
+     ],
+     "code": 200
+}
