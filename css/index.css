@@ -2,3 +2,131 @@
      width: 1100px;
      margin: 0 auto;
 }
+
+
+/*---------------------------------------------------- header ----------------------------------------------------*/
+
+#t_top{
+     height: 73px;
+     background: #fff;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#t_top>.header{
+     height: 70px;
+     background: #fff;
+}
+.header>.logo,h1{
+     height: 70px;
+     width: 290px;
+     float: left;
+}
+.header>.logo a{
+     display: block;
+     height: 70px;
+     width: 290px;
+     background: url(../images/modules.png) no-repeat ;
+     background-position: 0 -46px ;
+     text-indent: -99999px;
+     
+}
+
+.header>#search-bar{
+     width: 300px;
+     height: 70px;
+     float: right;
+}
+.header>#search-bar .f_s{
+     background: url(../images/modules.png) no-repeat ;
+     background-position: 0 16px ;
+}
+.header>#search-bar .s-box{
+     margin-top:15px;
+     width: 80%;
+     height: 38px;
+     border:0;
+     background: transparent;
+     padding-left:34px;
+}
+
+/*---------------------------------------------------- banner ----------------------------------------------------*/
+#banner{
+     height: 480px;
+     overflow: hidden;
+     position: relative;
+}
+button{
+     outline: 0;
+     border: 0;
+}
+#wrap{
+     height: 480px;
+     position: relative;
+}
+#wrap>ul{
+     position: relative;
+}
+#wrap>ul>li{
+     position: absolute;
+}
+#wrap>ol{
+     position: absolute;
+     z-index: 10;
+     bottom: 30px;
+     left: 50%;
+     transform: translate(-50%);
+     background: rgba(255,255,255,.3);
+     border-radius: 10px;
+}
+#wrap>ol>li{
+     width: 6px;
+     height: 6px;
+     float: left;
+     background: url(../images/dot.png) no-repeat center;
+     margin: 2px 5px;
+     border-radius: 50%; 
+}
+#wrap>ol>li.selected{
+     background:url(../images/dot_hover.png) no-repeat center;
+}
+#banner>button{
+     display: block;
+     position:absolute;
+     cursor: pointer;
+     z-index: 10;
+}
+
+#banner>#left{
+     left: 20px;
+     top: 50%;
+     bottom:50%;
+     transform: translate(0,-50%);
+     width: 37px;
+     height: 63px;
+     background: rgba(0,0,0,.1) url(../images/pointlist.png) no-repeat ;
+     
+}
+#banner>#right{
+     right: 20px;
+     top: 50%;
+     bottom:50%;
+     transform: translate(0,-50%);
+     width: 37px;
+     height: 63px;
+     background:rgba(0,0,0,.1)  url(../images/pointlist.png) no-repeat -49px 0px;
+     /* background-position: -49px 0px ; */
+}
+
+#banner>#right:hover{
+     background: rgba(0, 0, 0, 0.2) url(../images/pointlist.png) no-repeat -49px 0px;
+}
+#banner>#left:hover{
+     background: rgba(0, 0, 0, 0.2) url(../images/pointlist.png) no-repeat ;
+}
+
+/*---------------------------------------------------- nav-tab ----------------------------------------------------*/
+#nav-tab{
+     height: 80px;
+     border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* content */

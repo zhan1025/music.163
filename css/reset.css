@@ -27,6 +27,7 @@ a{
 	color:#f40;	
 } */
 input{
+	/* border: 0; */
 	outline:none;	
 }
 .clearfix{
