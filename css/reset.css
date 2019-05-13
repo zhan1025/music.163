@@ -1,4 +1,4 @@
-body, textarea, select, input, button {
+html,body, textarea, select, input, button {
      font-size: 12px;
      color: #333;
      font-family: quote, "PingFang SC", "Microsoft Yahei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", "simsun", sans-serif;
@@ -7,9 +7,11 @@ body, textarea, select, input, button {
      word-break: break-word;
      white-space: normal;
 }
-body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,footer,nav,article,aside{
+
+html,body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,footer,nav,article,aside,figure{
 	margin:0;padding:0
 }
+
 h1,h2,h3,h4,h5,h6,b,strong{
 	font-weight:normal;	
 }
@@ -21,7 +23,8 @@ li{
 }
 a{
 	text-decoration:none;
-	color:#6b6b6b;	
+	color:#333;
+	cursor: pointer;	
 }
 /* a:hover{
 	color:#f40;	
@@ -44,4 +47,6 @@ input{
 }
 img{
 	border:0;	
+	display: block;
 }
+
