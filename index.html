@@ -10,11 +10,8 @@
      <link rel="shortcut icon" href="./images/favicon.ico">
      <link rel="stylesheet" href="./css/reset.css?v=1">
      <link rel="stylesheet" href="./css/index.css?v=1">
-
      <title>云音乐商城 - 音乐购有趣</title>
-
      <script src="./js/jquery.js"></script>
-     
 </head>
 
 <body>
@@ -26,7 +23,7 @@
                </div>
                <div id="search-bar">
                </div>
-               <div class="car f-l"> <span id="num">0</span>
+               <div class="car f-l cart"> <span id="num">0</span>
                </div>
                <div class="login f-l"><span>登录</span>
                     <div id="t-list">
@@ -120,6 +117,7 @@
           </div>
      </div>
 </body>
+<script src="./js/back-t.js"></script>
 <script>
      $(".logo").on("click",function(){location.reload();});
      $("#search-bar").append(`<form  class="f_s">
@@ -127,47 +125,9 @@
                               </form>`);
      // location.href="https://music.163.com/store/product/search?q="+str;
      
-     $(".car").on("click",function(){});                       
+     $(".cart").on("click",function(){window.open("./cart.html","newWindow")});                       
      $(".login").hover(function(){$(".login>#t-list").attr("style","display:block");},
      function(){ $(".login>#t-list").attr("style","display:none");});
-     //backTop187 301
-     $("#sub").append(`<div id="b-top">
-               <ul>
-                    <li class="license"><a href="#">查看<br>营业执照</a></li>
-                    <li class="un">100%<br>正品</li>
-                    <li class="un">七天无理由退货</li>
-                    <li class="shop-car"><i class="c-bg"> <span id="num">0</span></i></li>
-                    <li class="kefu"><i class="k-bg"> </i><span>客服</span></li>
-                    
-               </ul>
-          </div>`);
-          var x=0;
-          var _timer;
-          document.onscroll=function top(){
-               var s_top=document.documentElement.scrollTop||document.body.scrollTop;
-               
-            if(s_top>200&&x==0){
-                 $("#sub>#b-top>ul").append(`<div class="b-t"></div>`);x=1;
-               }
-            if(s_top<200&&x==1){$("#b-top .b-t").remove();x=0;}
-            if(s_top>300&&x==1){
-               $("#sub>#b-top").attr("style","position:fixed;top:50%;right: 150px;transform:translate(0,-50%);");
-            }
-            else{   
-               $("#sub>#b-top").removeAttr("style");
-            }
-            $("#b-top>ul .b-t").on("click",function(){
-               if(s_top>200&&x==1){
-                    _timer=window.setInterval(function(){
-                         s_top-=10;
-                    },5);
-                    if(s_top<=0){
-                         window.clear
-                    }
-               }  
-               });
-          }  
-          window.clearInterval(_timer);
 </script>
 <script src="./js/banner.js"></script>
 <script src="./js/goods.js"></script>

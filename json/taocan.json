@@ -1,0 +1,51 @@
+{
+     "code": 200,
+     "data": {
+          "matchInfo": [
+               {
+                    "configId": 461000,
+                    "configName": "小黄人+T120A",
+                    "recommendedReasons": null,
+                    "num": 2,
+                    "maxDiscountPrice": "60",
+                    "nowPicUrl": "http://p1.music.126.net/5595RP-mtd5ssTLYgVnKzg==/109951163637530017.jpg",
+                    "picUrlList": [
+                         "http://p1.music.126.net/h-EjxO1k_HRYdmDvCch5Uw==/109951163667593072.jpg"
+                    ]
+               },
+               {
+                    "configId": 235000,
+                    "configName": "JBLT120A+听键日常",
+                    "recommendedReasons": null,
+                    "num": 2,
+                    "maxDiscountPrice": "30",
+                    "nowPicUrl": "http://p1.music.126.net/5595RP-mtd5ssTLYgVnKzg==/109951163637530017.jpg",
+                    "picUrlList": [
+                         "http://p1.music.126.net/LJDWRjKZKP1MVzxIN3LN_A==/19100715998038101.jpg"
+                    ]
+               },
+               {
+                    "configId": 449000,
+                    "configName": "T120A+弯头数据线",
+                    "recommendedReasons": null,
+                    "num": 2,
+                    "maxDiscountPrice": "30",
+                    "nowPicUrl": "http://p1.music.126.net/5595RP-mtd5ssTLYgVnKzg==/109951163637530017.jpg",
+                    "picUrlList": [
+                         "http://p1.music.126.net/yWwHtMgKqA7iSR-91USAZg==/109951163618674656.jpg"
+                    ]
+               },
+               {
+                    "configId": 450000,
+                    "configName": "T120A+直头数据线",
+                    "recommendedReasons": null,
+                    "num": 2,
+                    "maxDiscountPrice": "30",
+                    "nowPicUrl": "http://p1.music.126.net/5595RP-mtd5ssTLYgVnKzg==/109951163637530017.jpg",
+                    "picUrlList": [
+                         "http://p1.music.126.net/JF3SzhX439AbqG9ePo8dCg==/109951163618870351.jpg"
+                    ]
+               }
+          ]
+     }
+}

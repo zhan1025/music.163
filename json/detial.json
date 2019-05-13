@@ -1,0 +1,295 @@
+{
+     "bought": false,
+     "reserveFlag": "false",
+     "coupons": [
+          {
+               "couponId": 2731005,
+               "couponCode": "M30FJGRCL",
+               "couponLabel": "手慢无",
+               "couponName": "初夏狂欢惠",
+               "couponDesc": "仅限数码影音类目指定商品使用，数量有限，先到先得。领取后5天内使用有效。",
+               "startTime": 1556640000000,
+               "endTime": 1559318340000,
+               "fixDay": 5,
+               "drawStatus": 0,
+               "drawLimit": {
+                    "drawType": 0,
+                    "drawUserType": 0,
+                    "point": 0
+               },
+               "effectAction": {
+                    "actionType": 0,
+                    "minMoney": 0,
+                    "effectType": 1,
+                    "effectValue": 30
+               },
+               "welfareType": 0,
+               "curTime": 1557747921814
+          }
+     ],
+     "showCoupon": null,
+     "canBuy": true,
+     "addCartFlag": false,
+     "product": {
+          "stock": 0,
+          "saleNum": 0,
+          "sumMoney": null,
+          "skus": [
+               {
+                    "attrs": [
+                         {
+                              "attrId": 2001,
+                              "attr": "颜色",
+                              "attrValueId": 6001,
+                              "attrValue": "红色",
+                              "calValue": 0.0,
+                              "displayValue": "",
+                              "productSKUAttrDataList": null
+                         }
+                    ],
+                    "snapshotId": "43277015_221275018",
+                    "nearTicketTime": false,
+                    "ipadIapProductId": "",
+                    "vipSpePrice": 128,
+                    "stock": 1406,
+                    "iapSpePrice": 0,
+                    "iapPrice": 0,
+                    "spePrice": 118,
+                    "supplyPrice": null,
+                    "picUrl": "p3.music.126.net/XGm9cHsdh6b1bPDKRKoVfQ==/109951163303130519.jpg,p3.music.126.net/nbDyA2EFGOkZQDfs_PWTEw==/109951163303129618.jpg,p3.music.126.net/pItRvrUTDqI2JX2v7-53nQ==/109951163303128153.jpg,p3.music.126.net/GHbi2gFOtWElsdWNzZb-eg==/109951163303122468.jpg",
+                    "sales": 13949,
+                    "skuExtInfo": {
+                         "concertTicketId": 0,
+                         "productPlayid": 0,
+                         "priceStatus": 0,
+                         "priceNum": 0,
+                         "showStartlimitBuyNum": 0,
+                         "showStartDate": 0,
+                         "showEndDate": 0,
+                         "originPrice": 0,
+                         "showTicketStartTime": 0,
+                         "supPriBegin": 0,
+                         "supPriEnd": 0,
+                         "sortNum": 0
+                    },
+                    "iapDesc": null,
+                    "iapProductId": null,
+                    "iapName": null,
+                    "price": 128,
+                    "id": 18149004
+               },
+               {
+                    "attrs": [
+                         {
+                              "attrId": 2001,
+                              "attr": "颜色",
+                              "attrValueId": 6003,
+                              "attrValue": "黑色",
+                              "calValue": 0.0,
+                              "displayValue": "",
+                              "productSKUAttrDataList": null
+                         }
+                    ],
+                    "snapshotId": "43277015_221275019",
+                    "nearTicketTime": false,
+                    "ipadIapProductId": "",
+                    "vipSpePrice": 128,
+                    "stock": 252,
+                    "iapSpePrice": 0,
+                    "iapPrice": 0,
+                    "spePrice": 118,
+                    "supplyPrice": null,
+                    "picUrl": "p3.music.126.net/IXSTL2PDuvo8SDMxP4hemw==/109951163303129169.jpg,p3.music.126.net/aiew9HfnJtzVqTs847MXcg==/109951163303121947.jpg,p3.music.126.net/t9d2a1G76pbxM0CUqYKQDA==/109951163303121948.jpg,p3.music.126.net/LOszLhea-ff-xazNsvULoA==/109951163303121952.jpg",
+                    "sales": 53837,
+                    "skuExtInfo": {
+                         "concertTicketId": 0,
+                         "productPlayid": 0,
+                         "priceStatus": 0,
+                         "priceNum": 0,
+                         "showStartlimitBuyNum": 0,
+                         "showStartDate": 0,
+                         "showEndDate": 0,
+                         "originPrice": 0,
+                         "showTicketStartTime": 0,
+                         "supPriBegin": 0,
+                         "supPriEnd": 0,
+                         "sortNum": 0
+                    },
+                    "iapDesc": null,
+                    "iapProductId": null,
+                    "iapName": null,
+                    "price": 128,
+                    "id": 18149005
+               },
+               {
+                    "attrs": [
+                         {
+                              "attrId": 2001,
+                              "attr": "颜色",
+                              "attrValueId": 350055,
+                              "attrValue": "白色",
+                              "calValue": 0.0,
+                              "displayValue": "",
+                              "productSKUAttrDataList": null
+                         }
+                    ],
+                    "snapshotId": "43277015_221275020",
+                    "nearTicketTime": false,
+                    "ipadIapProductId": "",
+                    "vipSpePrice": 128,
+                    "stock": 1116,
+                    "iapSpePrice": 0,
+                    "iapPrice": 0,
+                    "spePrice": 118,
+                    "supplyPrice": null,
+                    "picUrl": "p3.music.126.net/az7LuUAL3ECsiFPHLGPknA==/109951163303124833.jpg",
+                    "sales": 12508,
+                    "skuExtInfo": {
+                         "concertTicketId": 0,
+                         "productPlayid": 0,
+                         "priceStatus": 0,
+                         "priceNum": 0,
+                         "showStartlimitBuyNum": 0,
+                         "showStartDate": 0,
+                         "showEndDate": 0,
+                         "originPrice": 0,
+                         "showTicketStartTime": 0,
+                         "supPriBegin": 0,
+                         "supPriEnd": 0,
+                         "sortNum": 0
+                    },
+                    "iapDesc": null,
+                    "iapProductId": null,
+                    "iapName": null,
+                    "price": 128,
+                    "id": 18149006
+               }
+          ],
+          "discount": null,
+          "pickUp": false,
+          "tags": [
+               "特价"
+          ],
+          "display": 0,
+          "status": 0,
+          "picIds": [
+               "109951163637530017",
+               "109951163304335952",
+               "109951163304336887"
+          ],
+          "couponLabelDesc": "用券减30",
+          "useVipPrice": false,
+          "category1": 101000,
+          "category2": 1005000,
+          "shopId": 49000,
+          "pubTime": 1526607502070,
+          "createTime": 1526553034037,
+          "brandName": "JBL",
+          "exchangeType": 0,
+          "priceType": 1,
+          "extInfo": {
+               "albumId": 0,
+               "songId": 0,
+               "goodVipType": 11,
+               "quotaOfOrder": 0,
+               "extProductId": 0,
+               "extProductStatus": 0,
+               "extShelfStatus": 0,
+               "concertId": 0,
+               "buysingle": false,
+               "showStartProId": 0,
+               "needMessage": 0,
+               "message": "",
+               "preSale": 1,
+               "defaultMessage": "",
+               "albumSaleDisplayType": 0,
+               "restrict": 1,
+               "giftSet": 1
+          },
+          "couponLabelFlag": 2,
+          "vipLimit": false,
+          "allowDupBuy": true,
+          "drawTime": 0,
+          "levelLimit": 0,
+          "statistics": 6,
+          "label": "领券",
+          "alterStock": 0,
+          "suggestWord": "佩戴舒适 强劲低音 一键式线控 音乐通话耳机",
+          "picUrls": [
+               "http://p4.music.126.net/5595RP-mtd5ssTLYgVnKzg==/109951163637530017.jpg",
+               "http://p3.music.126.net/T5xDF2mgx6kxtZY1xbBjbQ==/109951163304335952.jpg",
+               "http://p3.music.126.net/eSfkjWdD83fDkifZkhqsEQ==/109951163304336887.jpg"
+          ],
+          "specialType": 0,
+          "coverUrl": "http://p3.music.126.net/5595RP-mtd5ssTLYgVnKzg==/109951163637530017.jpg",
+          "coverIdStr": "109951163637530017",
+          "performanceTime": 0,
+          "iap": false,
+          "name": "JBL T120A 立体声入耳式耳机  手机音乐耳机 游戏耳机 耳机耳麦 带麦可通话",
+          "id": 9338002,
+          "type": 2,
+          "serviceType": [
+               "5",
+               "8",
+               "10",
+               "12"
+          ],
+          "descr": [
+               {
+                    "type": 1,
+                    "resource": "<span style=\"color:#ff0000;\">正品低价 品质保证：云音乐商城所有产品均由品牌方直供，杜绝假货。",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "</span>",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "<span style=\"color:#ff0000;\">装箱清单：耳机× 1，包装× 1，保修卡× 1。</span>",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "<span style=\"color:#ff0000;\">该产品一经拆封，非质量问题不接受7天无理由退货。</span>",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "<br>",
+                    "rawResource": null
+               },
+               {
+                    "type": 2,
+                    "resource": "http://p3.music.126.net/Hd0f4ZyBU4rxQOUXQJ9cqQ==/109951163689815069.jpg",
+                    "rawResource": "109951163689815069"
+               },
+               {
+                    "type": 1,
+                    "resource": "<br>",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "商品交易成功后会在2个工作日内由北京恒远恒信科技发展有限公司发货，法定节假日顺延（包含周六日），请在确认商品完好后再签收。若存在质量问题，请务必在7天之内联系客服：",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "·客服账号：私信 @云音乐客服",
+                    "rawResource": null
+               },
+               {
+                    "type": 1,
+                    "resource": "·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。",
+                    "rawResource": null
+               }
+          ],
+          "appleDescr": [],
+          "businessName": "北京恒远恒信科技发展有限公司",
+          "discount": true,
+          "videoId": null
+     },
+     "code": 200
+}
