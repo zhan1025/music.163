@@ -1,0 +1,156 @@
+
+.f-l{
+     float: left;
+}
+
+
+/*-------------------------------- header --------------------------------*/
+#t_top{
+     height: 73px;
+     background: #fff;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#t_top>.header{
+     height: 73px;
+     background: #fff;
+}
+.header .logo{
+     height: 73px;
+     width: 290px;
+     float: left;
+}
+.header>.logo a{
+     display: block;
+     height: 73px;
+     width: 290px;
+     background: url(../images/modules.png) no-repeat ;
+     background-position: 0 -46px ;
+     text-indent: -99999px;
+}
+
+.header>#search-bar{
+     width: 300px;
+     height: 73px;
+     margin-left: 334px;
+     float: left;
+}
+.header>#search-bar .f_s{
+     background: url(../images/modules.png) no-repeat ;
+     background-position: 0 16px ;
+}
+.header>#search-bar .s-box{
+     margin-top:15px;
+     width: 80%;
+     height: 38px;
+     border:0;
+     background: transparent;
+     padding-left:34px;
+}
+
+.header #t-r{
+     float: right;
+}
+.car{
+     width: 36px;
+     height: 36px;
+     cursor: pointer;
+     position: relative;
+     margin: 17px 0 0 41px;
+     background: url(../images/modules.png) no-repeat -106px -158px ;
+}
+.car #num{
+     display: block;
+     text-align: center;
+     width:18px;
+     min-height: 18px;
+     position: absolute;
+     top: -8px;
+     left: 26px;
+     line-height: 18px;
+     border-radius: 9px 9px 9px 9px;
+     background: red;
+     color: #fff;
+}
+
+.login{
+     width: 62px;
+     height: 58px;
+     position: relative;
+     font-size: 14px;
+     margin: 15px 0 0 37px;
+    background: url(../images/arrow-d.png) no-repeat 38px 12px; 
+}
+.login:hover{
+     background: url(../images/arrow-u.png) no-repeat 38px 12px;
+}
+.login>span{
+     display: block;
+     margin-top: 9px;
+     font-weight: bold;
+}
+.login>#t-list{
+     z-index: 10;
+     height: 200px;
+     width: 160px;
+     background: #fff;
+     position: absolute;
+     top: 54px;
+     left: -61px;
+     display: none;
+     box-shadow: 0 4px 7px #555;
+     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9)
+}
+#t-list ul{
+     position: relative;
+}
+#t-list .t-angle{
+     display: block;
+     position: absolute; 
+     z-index: 10;
+     border-top: 10px solid transparent;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-bottom: 10px solid rgb(238, 236, 236);
+     margin-top: -19px;
+     left: 50%;
+     transform: translate(-50%,0);
+}
+#t-list li{
+     height: 40px;
+     line-height: 40px;
+}
+#t-list li a{
+     display: block;
+     width: 160px;
+     height: 40px;
+}
+
+#t-list li .l-bg{
+     display: inline-block;
+     position: relative;
+     top: 2px;
+     width: 18px;
+     height: 18px;
+     margin:0px 5px 0 15px;
+}
+#t-list li .phone{
+     background: url(../images/phonelog.png) no-repeat center;
+}
+#t-list li .wechat{
+     background: url(../images/logins.png) no-repeat -84px 2px;
+}
+#t-list li .qq{
+     background: url(../images/logins.png) no-repeat -112px 2px;
+}
+#t-list li .sina{
+     background: url(../images/sina.png) no-repeat center;
+}
+#t-list li .could{
+     background: url(../images/netease.png) no-repeat center;
+}
+#t-list li:hover{
+     background: #f8f8f8;
+}
+
+
+

@@ -50,3 +50,10 @@ img{
 	display: block;
 }
 
+.container{
+     width: 1100px;
+     margin: 0 auto;
+}
+.f-l{
+     float: left;
+}

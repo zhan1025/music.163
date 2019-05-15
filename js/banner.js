@@ -3,13 +3,13 @@ $.get("./json/banner.json?v="+Math.random(),function(res){
      $("#banner").append(`<button id="left"></button><button id="right"></button>
           <div id="wrap" class="container">
                <ul id="img">
-                    <li style="z-index: 6"><a href="${res.banners[0].url}" target="_blank"><img src="./images/${res.banners[0].picId}.jpg" alt="" ></a></li>
-                    <li style="z-index: 5"><a href="${res.banners[1].url}" target="_blank"><img src="./images/${res.banners[1].picId}.jpg" alt="" ></a></li>
-                    <li style="z-index: 4"><a href="${res.banners[2].url}" target="_blank"><img src="./images/${res.banners[2].picId}.jpg" alt="" ></a></li>
-                    <li style="z-index: 3"><a href="${res.banners[3].url}" target="_blank"><img src="./images/${res.banners[3].picId}.jpg" alt="" ></a></li>
-                    <li style="z-index: 2"><a href="${res.banners[4].url}" target="_blank"><img src="./images/${res.banners[4].picId}.jpg" alt="" ></a></li>
-                    <li style="z-index: 1"><a href="${res.banners[5].url}" target="_blank"><img src="./images/${res.banners[5].picId}.jpg" alt="" ></a></li>
-               </ul></a>
+                    <li style="z-index: 6"><a href="javascript:;" target="_blank"><img src="./images/${res.banners[0].picId}.jpg" alt="" ></a></li>
+                    <li style="z-index: 5"><a href="javascript:;" target="_blank"><img src="./images/${res.banners[1].picId}.jpg" alt="" ></a></li>
+                    <li style="z-index: 4"><a href="javascript:;" target="_blank"><img src="./images/${res.banners[2].picId}.jpg" alt="" ></a></li>
+                    <li style="z-index: 3"><a href="javascript:;" target="_blank"><img src="./images/${res.banners[3].picId}.jpg" alt="" ></a></li>
+                    <li style="z-index: 2"><a href="javascript:;" target="_blank"><img src="./images/${res.banners[4].picId}.jpg" alt="" ></a></li>
+                    <li style="z-index: 1"><a href="javascript:;" target="_blank"><img src="./images/${res.banners[5].picId}.jpg" alt="" ></a></li>
+               </ul>
                <ol id="dot">
                     <li class="selected"></li> <li></li> <li></li> <li></li> <li></li> <li></li>
                </ol>
@@ -17,7 +17,6 @@ $.get("./json/banner.json?v="+Math.random(),function(res){
           </div>`);
           //初始背景
           $("#banner").css({"background":`url(./images/${res.banners[0].backendPicId}.jpg) repeat-x`});
-          
           //设置初始图，添加定时器
           var index=0,timer,en=1;
           var _timer=window.setInterval(autoPlay,2500);

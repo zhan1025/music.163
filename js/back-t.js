@@ -1,4 +1,4 @@
-$("#sub").append(`<div id="b-top">
+$("body").append(`<div id="b-top">
 <ul>
      <li class="license"><a href="#">查看<br>营业执照</a></li>
      <li class="un">100%<br>正品</li>
@@ -10,16 +10,16 @@ $("#sub").append(`<div id="b-top">
 var x=0;
 document.onscroll=function top(){
 var s_top=document.documentElement.scrollTop||document.body.scrollTop;
-
 if(s_top>200&&x==0){
-  $("#sub>#b-top>ul").append(`<div class="b-t"></div>`);x=1;
+  $("#b-top>ul").append(`<div class="b-t"></div>`);
+  x=1;
 }
 if(s_top<200&&x==1){$("#b-top .b-t").remove();x=0;}
 if(s_top>300&&x==1){
-$("#sub>#b-top").attr("style","position:fixed;top:50%;right: 150px;transform:translate(0,-50%);");
+$("#b-top").attr("style",`position:fixed;top:50%;transform:translate(0,-50%);`);
 }
 else{   
-$("#sub>#b-top").removeAttr("style");
+$("#b-top").removeAttr("style");
 }
 $("#b-top>ul .b-t").on("click",function(){
 if(s_top>200&&x==1){

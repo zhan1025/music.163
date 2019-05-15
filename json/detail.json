@@ -237,12 +237,12 @@
           "descr": [
                {
                     "type": 1,
-                    "resource": "<span style=\"color:#ff0000;\">正品低价 品质保证：云音乐商城所有产品均由品牌方直供，杜绝假货。",
+                    "resource": "<span style=\"color:#ff0000;\">正品低价 品质保证：云音乐商城所有产品均由品牌方直供，杜绝假货。</span>",
                     "rawResource": null
                },
                {
                     "type": 1,
-                    "resource": "</span>",
+                    "resource": "<br>",
                     "rawResource": null
                },
                {

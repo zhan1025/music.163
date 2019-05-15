@@ -9,7 +9,9 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="shortcut icon" href="./images/favicon.ico">
      <link rel="stylesheet" href="./css/reset.css?v=1">
-     <link rel="stylesheet" href="./css/index.css?v=1">
+     <link rel="stylesheet" href="./css/header.css">
+     <link rel="stylesheet" href="./css/index.css">
+     <link rel="stylesheet" href="./css/footer.css">
      <title>云音乐商城 - 音乐购有趣</title>
      <script src="./js/jquery.js"></script>
 </head>
@@ -96,6 +98,7 @@
                </div>
           </div>
      </div>
+     <!-- 页脚 -->
      <div id="footer">
           <div class="foo container">
                <div class="copy">
@@ -118,17 +121,17 @@
      </div>
 </body>
 <script src="./js/back-t.js"></script>
+<script src="./js/banner.js"></script>
+<script src="./js/goods.js"></script>
 <script>
-     $(".logo").on("click",function(){location.reload();});
+     $(".logo").on("click",function(){location.href="./index.html";});
      $("#search-bar").append(`<form  class="f_s">
      <input type="text" placeholder="氧气耳机" class="s-box"> 
                               </form>`);
      // location.href="https://music.163.com/store/product/search?q="+str;
-     
      $(".cart").on("click",function(){window.open("./cart.html","newWindow")});                       
      $(".login").hover(function(){$(".login>#t-list").attr("style","display:block");},
      function(){ $(".login>#t-list").attr("style","display:none");});
 </script>
-<script src="./js/banner.js"></script>
-<script src="./js/goods.js"></script>
+
 </html>
